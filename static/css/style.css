@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background:rgba(0, 0, 0, 0.822);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px; /* Para que la Navbar no se encime con el contenido de la pagina (hicimos que el Navbar este fijo en el top de la pagina) */
+    /* padding-bottom: 80px;  NO pongas esto es lo que mantenia el error con el footer */
+    /*position: relative 1*/;
+    
+    /* solucion al problema del footer */
+    display: flex; /* This defines a flex container */
+    flex-direction: column; /* defining the direction flex items are placed in the flex container */
+    height: 100%;
+}
+
+/* solucion al problema del footer */
+.content {
+    flex: 1 0 auto; /* This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The default is 0 1 auto */
+}
+
+.img-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+  }
+
+.ch:hover {
+    box-shadow: 0 0 10px 5px rgb(208, 255, 1);
+  }
+
+.ch {
+    width: 20rem;
+}
+
+.h-card {
+    text-align:center;
+}
+
+.mtrx {
+    overflow-x: auto;
+}
+
+.card {
+    width:100%;
+    height:auto;
+} 
+
+.container {
+    background-color: rgb(217, 219, 219);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
