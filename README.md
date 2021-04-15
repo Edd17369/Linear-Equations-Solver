@@ -3,7 +3,7 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Technologies](#technologies)
-* [Illustrations](#illustrations)
+* [Example](#example)
 
 
 ## Introduction
@@ -19,7 +19,12 @@ This project was created with:
 * HTML
 * CSS
 
-## Illustrations
-
+## Example
+For a  following system:
 ![System](./static/images/screenshot1.png)
+
+The input of the solver is the system's matrix coefficient
+![Solution](./static/images/screenshot3.png)
+
+Then the solution is:
 ![Solution](./static/images/screenshot2.png)
