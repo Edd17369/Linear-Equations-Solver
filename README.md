@@ -23,8 +23,8 @@ This project was created with:
 For a  following system:
 ![System](./static/images/screenshot1.png)
 
-The input of the solver is the system's matrix coefficient
+The input of the solver is the extended system coefficient matrix
 ![Solution](./static/images/screenshot3.png)
 
-Then the solution is:
+Then the solution is show as:
 ![Solution](./static/images/screenshot2.png)

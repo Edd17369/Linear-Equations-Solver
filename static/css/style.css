@@ -54,8 +54,23 @@ body {
     background-color: rgb(217, 219, 219);
 }
 
+a {
+    font-size: x-large;
+}
+
+a:hover {
+    text-decoration:solid;
+  }
+
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0
+}
+
+footer {
+    background-color:whitesmoke;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
 }
