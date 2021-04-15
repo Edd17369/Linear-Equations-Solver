@@ -26,5 +26,5 @@ For a  following system:
 The input of the solver is the extended system coefficient matrix
 ![Solution](./static/images/screenshot3.png)
 
-Then the solution is:
+Then the solution is show as:
 ![Solution](./static/images/screenshot2.png)
