@@ -8,7 +8,7 @@
 
 ## Introduction
 
-A web app powered by Flask to calculate the solution of systems of linear equations of dimension NxN with real coefficients. The solver function is an implementaction of the Gauss–Jordan elimination method and the app is deployed on Heroku [tets go to ](https://www.quora.com).
+A web app powered by Flask to calculate the solution of systems of linear equations of dimension NxN with real coefficients. The solver function is an implementaction of the Gauss–Jordan elimination method and the app is deployed on Heroku [tets go to](https://www.quora.com).
 
 
 ## Technologies
