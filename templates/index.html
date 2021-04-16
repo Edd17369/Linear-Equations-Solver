@@ -25,7 +25,7 @@
               <ul class=flashes>
               {% for message in messages %}
                 <li>
-                  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <div class="alert alert-danger alert-dismissible fade show" role="alert">
                       <strong>Holy guacamole!</strong> {{message}}
                       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -38,10 +38,31 @@
           {% endwith %}
 
           <section>
-            <h1>Portada</h1>
+            <h1>Systems of Equations Solver</h1>
+            <p>Solve linear systems of equations of dimension NxN with real coefficients.</p>
           </section>
           
           <br>
+          <div class="card border-danger mb-3">
+            <div class="card-header">
+              <h3>
+                Example:
+              </h3>
+            </div>
+            <div class="card-body">
+              <p>For the system:</p>
+            </div>
+            <img src="{{ url_for('static', filename='images/screenshot1.png') }}" class="card-img-bottom" alt="">
+            <div class="card-footer border-danger">
+              <p>The input of the solver is the extended matrix of the system:</p> 
+              <p style="text-align: center;">[1, sin(5), 2, 3, 7; 2/3, 3, 4, 0, pi; 1, 0, 5, 6, 9]</p>
+            </div>
+          </div>
+          
+          <br>
+          <hr>
+          <br>
+
           <div class="card">
               <div class="card-header">
                   Solver:
@@ -59,7 +80,7 @@
                               <input class="form-control" type="text" id="matrix" name="matrix" value="{{matrix}}" required>
                           </div>
                       </div>
-                      <input class="btn btn-warning" type="submit" value="Solve"> 
+                      <input class="btn btn-danger" type="submit" value="Solve"> 
                   </form>
                 </p>
               </div>
